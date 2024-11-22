@@ -1,18 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- *{
-    font-family:'Poppins', sans-serif;
+/* ESTILO GERAL*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
- body{
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-color: #606dde;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.flex{
+    display: flex;
+}
+
+h2{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+/*ESTILO DO CABEÇALHO*/
+
+header{
+    padding: 20px 4%;
+}
+
+header > .interface{
     display: flex;
     align-items: center;
+    justify-items: center;
+} 
+
+header a{
+    color: #929292;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3b82f6;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px  8px #3c72c9 ;
+}
+
+/*ESTILO DO TOPO DO SITE*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background: linear-gradient(#3b82f6,#4a7dff);
-     }
- #container{
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-do-site h1 span{
+    color: #3b82f6;
+}
+
+.topo-do-site .txt-topo-do-site p{
+    color: #fff;
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+        /*API*/
+#container{
     background-color: aliceblue;
     border-radius: 20px;
     padding: 18px;
@@ -135,4 +225,37 @@
     width: 200px;
     margin-top: 20px;
  }
-    
+ /*FIM DA API*/
+ /* ESTILO DOS INFORMATIVOS*/
+
+ section.informativos{
+    padding: 40px 4%;
+ }
+
+ section.informativos .flex{
+    gap: 60px;
+ }
+
+ .informativos .informativos-box{
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: 0.2s;
+ }
+
+ .informativos .informativos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #0285c76b;
+ }
+
+ .informativos .informativos-box i{
+    font-size: 70px;
+ }
+
+ .informativos .informativos-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+ }
+
+ /* FIM ESTILO DOS INFORMATIVOS*/
