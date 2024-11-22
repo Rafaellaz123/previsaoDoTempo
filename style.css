@@ -9,6 +9,11 @@
 body{
     background-color: #606dde;
     height: 100vh;
+
+}
+
+main{
+    margin-bottom: 30px;
 }
 
 .interface{
@@ -22,9 +27,10 @@ body{
 }
 
 h2{
-    color: #fff;
+    color: #000;
     font-size: 38px;
     text-align: center;
+    margin-top: 220px;
 }
 
 /*ESTILO DO CABEÇALHO*/
@@ -44,6 +50,7 @@ header a{
     text-decoration: none;
     display: inline-block;
     transition: .2s;
+    margin-left: 100px;
 }
 
 header a:hover{
@@ -107,6 +114,8 @@ section.topo-do-site .flex{
     border-radius: 20px;
     padding: 18px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top:200px;
+    margin:400px;
            }
 #search{
     display: flex;
@@ -251,11 +260,33 @@ section.topo-do-site .flex{
 
  .informativos .informativos-box i{
     font-size: 70px;
- }
-
- .informativos .informativos-box h3{
+    background-color: #fff;
+    border-radius: 20px;
     font-size: 28px;
     margin: 15px 0;
  }
 
+ body > main > section.Informativos > div > div > div:nth-child(1){
+    background-color:#fff;
+    border-radius: 20px;
+    height: 135px;
+    margin: auto;
+    width: 350px;
+ }
+
+ body > main > section.Informativos > div > div > div:nth-child(2){
+    background-color:#fff;
+    border-radius: 20px;
+    height: 135px;  
+    margin: auto;
+    width: 350px;
+ }
+
+ body > main > section.Informativos > div > div > div:nth-child(3){
+    background-color:#fff;
+    border-radius: 20px;
+    height: 135px;  
+    margin: auto;
+    width: 350px;
+ }
  /* FIM ESTILO DOS INFORMATIVOS*/
