@@ -26,8 +26,14 @@ main{
     display: flex;
 }
 
+.info{
+    height: 30px;
+    font-size: 12px;
+    
+}
+
 h2{
-    color: #000;
+    color: #000000;
     font-size: 38px;
     text-align: center;
     margin-top: 220px;
@@ -86,11 +92,18 @@ section.topo-do-site{
     padding: 40px 4%;
 }
 
-section.topo-do-site .flex{
+.topo-do-site{
+    display: flex;
+    align-items: center;
+}
+
+
+/* section.topo-do-site .flex{
+
     align-items: center;
     justify-content: center;
     gap: 90px;
-}
+} */
 
 .topo-do-site .txt-topo-do-site h1{
     color: #fff;
@@ -266,12 +279,14 @@ section.topo-do-site .flex{
     margin: 15px 0;
  }
 
- body > main > section.Informativos > div > div > div:nth-child(1){
+/*  body > main > section.Informativos > div > div > div:nth-child(1){
     background-color:#fff;
     border-radius: 20px;
     height: 135px;
     margin: auto;
     width: 350px;
+    text-align: center;
+
  }
 
  body > main > section.Informativos > div > div > div:nth-child(2){
@@ -280,6 +295,8 @@ section.topo-do-site .flex{
     height: 135px;  
     margin: auto;
     width: 350px;
+    text-align: center;
+
  }
 
  body > main > section.Informativos > div > div > div:nth-child(3){
@@ -288,5 +305,7 @@ section.topo-do-site .flex{
     height: 135px;  
     margin: auto;
     width: 350px;
- }
+    text-align: center;
+
+ } */
  /* FIM ESTILO DOS INFORMATIVOS*/
