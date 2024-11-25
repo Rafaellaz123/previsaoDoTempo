@@ -5,8 +5,8 @@ document.querySelector('#search').addEventListener('submit', async (event)=> {
 
     if(!cityName) {
         document.querySelector("#weather").classList.remove('show');
-        return alert('Você precisa digitar uma cidade!')
         return;
+        return alert('Você precisa digitar uma cidade!')
 
         const apiKey = 'd6a75169451bb4b409785d1a29c34608';
         const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(cityName)}&appid=${API key}&units=metric&Lang=pt_br';

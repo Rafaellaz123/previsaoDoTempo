@@ -34,9 +34,8 @@ main{
 
 h2{
     color: #000000;
-    font-size: 38px;
+    font-size: 10px;
     text-align: center;
-    margin-top: 220px;
 }
 
 /*ESTILO DO CABEÇALHO*/
@@ -95,6 +94,7 @@ section.topo-do-site{
 .topo-do-site{
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
 
@@ -127,9 +127,7 @@ section.topo-do-site{
     border-radius: 20px;
     padding: 18px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-    margin-top:200px;
-    margin:400px;
-           }
+}
 #search{
     display: flex;
     align-items: center;
@@ -152,7 +150,7 @@ section.topo-do-site{
     
 #weather{
     display: none;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     }
     
 #weather.show{
@@ -193,7 +191,7 @@ section.topo-do-site{
     }
     
 #other_infos{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -280,7 +278,7 @@ section.topo-do-site{
  }
 
 /*  body > main > section.Informativos > div > div > div:nth-child(1){
-    background-color:#fff;
+    background-color: transparent;
     border-radius: 20px;
     height: 135px;
     margin: auto;
