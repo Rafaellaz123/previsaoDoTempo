@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(#4150d8, #6576d6);
+    background: linear-gradient(#4150d8, #fff);
 }
 
 main{
@@ -72,7 +72,7 @@ header .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #3b82f6;
+    background-color: #6d78da;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -276,3 +276,69 @@ section.topo-do-site{
     margin: 15px 0;
  }
  /* FIM ESTILO DOS INFORMATIVOS*/
+
+ /* ESTILO DO FORMULÁRIO*/
+
+section.formulario .titulo{
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    gap: 40px;
+}
+
+ section.formulario{
+    padding: 80px 4%;
+ }
+
+ form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+ }
+
+form input{
+    width: 100%;
+    background-color: ##6576d6;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: ##6576d6;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #9da3d1;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+ /* FIM ESTILO DO FORMULÁRIO*/
