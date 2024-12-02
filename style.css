@@ -47,7 +47,7 @@ header > .interface{
 } 
 
 header a{
-    color: #929292;
+    color: #d6d6d6;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -72,7 +72,7 @@ header .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #6d78da;
+    background-color: #a2acff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -91,6 +91,10 @@ section.topo-do-site{
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+#formatoTextoApresentacao{
+    width: 50vw;
 }
 
 /* section.topo-do-site .flex{
@@ -113,6 +117,7 @@ section.topo-do-site{
 }
         /*API*/
         #container {
+            margin-left: 200px ;
             background-color: #f0f8ff;
             border-radius: 20px;
             padding: 18px;
@@ -199,7 +204,7 @@ section.topo-do-site{
             display: flex;
             align-items: center;
             justify-content: start;
-            padding: 4px 10px;
+            padding: 30px;
             border-radius: 8px;
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
             background-color: #fff;
@@ -341,3 +346,81 @@ form .btn-enviar input {
 }
 
  /* FIM ESTILO DO FORMULÁRIO*/
+
+
+ /* ============================== */
+
+ @media only screen and (max-width: 1350px) {
+    
+    body{
+        transform: scale3d(0.8);
+    }
+
+    .topo-do-site{
+        flex-direction: column;
+    }
+
+    #container{
+        margin-left: 0px;
+    }
+
+    #acessibilidadeMenu{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        min-width: 350px;
+    }
+
+    .menu-desktop a{
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .menu-desktop li{
+        padding: 5px;
+    }
+
+    .interface{
+        display: flex;
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .logo a{
+        margin: 0;
+    }
+
+    .btn-contato a{
+        margin: 0;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    body{
+        transform: scale3d(0.4);
+    }
+
+    #container{
+        margin-left: 0px;
+    }
+
+    #acessibilidadeInformativos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #acessibilidadeInformativos div{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
